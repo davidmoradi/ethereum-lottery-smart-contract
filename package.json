@@ -1,0 +1,26 @@
+{
+  "name": "smart-contract-boilerplate",
+  "version": "1.0.0",
+  "description": "Ethereum/Solidity Smart Contract BoilerPlate",
+  "main": "index.js",
+  "scripts": {
+    "tests": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/davidmoradi/smart-contract-boilerplate.git"
+  },
+  "author": "David Moradi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidmoradi/smart-contract-boilerplate/issues"
+  },
+  "homepage": "https://github.com/davidmoradi/smart-contract-boilerplate#readme",
+  "dependencies": {
+    "ganache-cli": "^6.1.0",
+    "mocha": "^5.1.0",
+    "solc": "^0.4.21",
+    "truffle-hdwallet-provider": "0.0.3",
+    "web3": "^1.0.0-beta.33"
+  }
+}
