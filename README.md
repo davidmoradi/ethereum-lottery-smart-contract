@@ -1,4 +1,4 @@
-# smart-contract-boilerplate
+# ethereum-lottery-smart-contract
 Ethereum / Solidity Smart Contract BoilerPlate
 
 ## General Usage

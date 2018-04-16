@@ -1,21 +1,21 @@
 {
-  "name": "smart-contract-boilerplate",
+  "name": "ethereum-lottery-smart-contract",
   "version": "1.0.0",
-  "description": "Ethereum/Solidity Smart Contract BoilerPlate",
+  "description": "Ethereum lottery smart contract",
   "main": "index.js",
   "scripts": {
     "tests": "mocha"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/davidmoradi/smart-contract-boilerplate.git"
+    "url": "git+ssh://git@github.com/davidmoradi/ethereum-lottery-smart-contract.git"
   },
   "author": "David Moradi",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/davidmoradi/smart-contract-boilerplate/issues"
+    "url": "https://github.com/davidmoradi/ethereum-lottery-smart-contract/issues"
   },
-  "homepage": "https://github.com/davidmoradi/smart-contract-boilerplate#readme",
+  "homepage": "https://github.com/davidmoradi/ethereum-lottery-smart-contract#readme",
   "dependencies": {
     "ganache-cli": "^6.1.0",
     "mocha": "^5.1.0",
