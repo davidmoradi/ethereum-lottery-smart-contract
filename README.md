@@ -30,8 +30,11 @@ npm run tests
 
 Deploy your smart contract to Ethereum Rinkeby network:
 ```Bash
-node deploy.js
+npm run deploy
 ```
+
+This contact is currently deployed to rinkeby test network:
+https://rinkeby.etherscan.io/address/0x3aBBA04e8e2392139d76434C3dfeC802F8e41eeC
 
 Visit [https://www.rinkeby.io/#explorer](https://www.rinkeby.io/#explorer) to find your deployed
 smart contract.
