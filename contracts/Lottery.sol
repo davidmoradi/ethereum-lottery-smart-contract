@@ -2,6 +2,7 @@ pragma solidity ^0.4.17;
 
 contract Lottery {
     address public manager;
+    address public winner;
     address[] public players;
 
     function Lottery() public {
@@ -23,7 +24,8 @@ contract Lottery {
 
         // the entitre balance of this contract to the winner.
         players[index].transfer(this.balance);
-
+        // set winner
+        winner = players[index];
         // clear players and start over.
         players = new address[](0);
     }
