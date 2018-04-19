@@ -1,11 +1,11 @@
-const HDWallerProvider = require('truffle-hdwallet-provider');
+const HDWalletProvider = require('truffle-hdwallet-provider');
 const Web3 = require('web3');
 const { interface, bytecode } = require('./compile');
 
 const providerURL = "https://rinkeby.infura.io/..."; // replace with your Rinkeby	test network URL
 const mnemonic = "in crypto we trust ..."; // replace with your 12 word wallet mnemonic.
 
-const provider = new HDWallerProvider(mnemonic, providerURL);
+const provider = new HDWalletProvider(mnemonic, providerURL);
 const web3 = new Web3(provider);
 
 const deploy = async () => {
